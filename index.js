@@ -21,7 +21,6 @@ const connectToMongo = async () => {
     }
 connectToMongo();
 app.use(cors());
-app.use(cookieParser());
 app.use(express.json())
 // parse requests of content-type - application/json
 app.use(bodyParser.json());
